@@ -1,5 +1,6 @@
-# Boston University CS591 "Tools and Techniques for Data Mining and Applications"
-Official content for the Spring 2015 Boston University CS591 "Tools and Techniques for Data Mining and Applications" course
+# Tools and Techniques for Data Mining and Applications
+### Boston University CS591
+*This repo holds the materials, lectures and scripts for the Boston University course "Tools and Techniques for Data Mining and Applications". You can find more information about the course [here](http://cs-people.bu.edu/evimaria/datascience.html).*
 
 
 ## License
