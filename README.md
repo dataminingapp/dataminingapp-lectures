@@ -3,9 +3,9 @@ Official content for the Spring 2015 Boston University CS591 "Tools and Techniqu
 
 
 ## License
-Copyright (C) 2015 
-Evimaria Terzi <evimaria@cs.bu.edu>
-Charalampos Mavroforakis <cmav@bu.edu>
+Copyright (C) 2015 Evimaria Terzi <evimaria@cs.bu.edu>
+
+Copyright (C) 2015 Charalampos Mavroforakis <cmav@bu.edu>
 
 Except where otherwise noted, both the instructional material and the code in 
 this repository are licensed under the Creative Commons Attribution 4.0 
