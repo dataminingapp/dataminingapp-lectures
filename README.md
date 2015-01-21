@@ -2,6 +2,11 @@
 ### Boston University CS591
 *This repo holds the materials, lectures and scripts for the Boston University course "Tools and Techniques for Data Mining and Applications". You can find more information about the course [here](http://cs-people.bu.edu/evimaria/datascience.html).*
 
+## Lectures
+[Lecture 1 - Intro to Python](http://nbviewer.ipython.org/github/dataminingapp/dataminingapp-lectures/blob/master/Lecture-1/Intro%20to%20Python.ipynb)
+
+## Homeworks
+The homeworks of this course can be found at [this repository](https://github.com/dataminingapp/spring-2015-homeworks).
 
 ## License
 Copyright (C) 2015 Evimaria Terzi <evimaria@cs.bu.edu>
