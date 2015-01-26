@@ -5,6 +5,8 @@
 ## Lectures
 [Lecture 1 - Intro to Python](http://nbviewer.ipython.org/github/dataminingapp/dataminingapp-lectures/blob/master/Lecture-1/Intro%20to%20Python.ipynb)
 
+[Lecture 2 - Getting Started](https://github.com/dataminingapp/dataminingapp-lectures/blob/master/Lecture-2/Getting-Started.ipynb)
+
 ## Homeworks
 The homeworks of this course can be found at [this repository](https://github.com/dataminingapp/spring-2015-homeworks).
 
