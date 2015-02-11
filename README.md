@@ -7,6 +7,9 @@
 
 [Lecture 2 - Getting Started](http://nbviewer.ipython.org/github/dataminingapp/dataminingapp-lectures/blob/master/Lecture-2/Getting-Started.ipynb)
 
+[Lecture 3 - Pandas](nbviewer.ipython.org/github/dataminingapp/dataminingapp-lectures/blob/master/Lecture-3/Getting to know your data with Pandas.ipynb)
+
+
 ## Homeworks
 The homeworks of this course can be found at [this repository](https://github.com/dataminingapp/spring-2015-homeworks).
 
