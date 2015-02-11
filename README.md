@@ -7,7 +7,7 @@
 
 [Lecture 2 - Getting Started](http://nbviewer.ipython.org/github/dataminingapp/dataminingapp-lectures/blob/master/Lecture-2/Getting-Started.ipynb)
 
-[Lecture 3 - Pandas](nbviewer.ipython.org/github/dataminingapp/dataminingapp-lectures/blob/master/Lecture-3/Getting to know your data with Pandas.ipynb)
+[Lecture 3 - Pandas](http://nbviewer.ipython.org/github/dataminingapp/dataminingapp-lectures/blob/master/Lecture-3/Getting to know your data with Pandas.ipynb)
 
 
 ## Homeworks
