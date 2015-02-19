@@ -10,6 +10,9 @@
 [Lecture 3 - Pandas](http://nbviewer.ipython.org/github/dataminingapp/dataminingapp-lectures/blob/master/Lecture-3/Getting-to-know-your-data-with-Pandas.ipynb)
 
 [Lecture 4 - Distance Functions](http://nbviewer.ipython.org/github/dataminingapp/dataminingapp-lectures/blob/master/Lecture-4/Distance-Functions.ipynb) [Slides](https://github.com/dataminingapp/dataminingapp-lectures/blob/master/Lecture-4/distance-functions.pdf?raw=true)
+
+[Lecture 5 - k-means clustering](https://github.com/dataminingapp/dataminingapp-lectures/blob/master/Lecture-5/kmeanspp.pdf?raw=true)
+
 ## Homeworks
 The homeworks of this course can be found at [this repository](https://github.com/dataminingapp/spring-2015-homeworks).
 
