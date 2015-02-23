@@ -13,6 +13,8 @@
 
 [Lecture 5 - k-means clustering](https://github.com/dataminingapp/dataminingapp-lectures/blob/master/Lecture-5/kmeanspp.pdf?raw=true)
 
+[Lecture 6 - Clustering](http://nbviewer.ipython.org/github/dataminingapp/dataminingapp-lectures/blob/master/Lecture-6/Clustering.ipynb)
+
 ## Homeworks
 The homeworks of this course can be found at [this repository](https://github.com/dataminingapp/spring-2015-homeworks).
 
