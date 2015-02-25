@@ -15,6 +15,11 @@
 
 [Lecture 6 - Clustering](http://nbviewer.ipython.org/github/dataminingapp/dataminingapp-lectures/blob/master/Lecture-6/Clustering.ipynb)
 
+
+[Lecture 7 - SVD](http://nbviewer.ipython.org/github/dataminingapp/dataminingapp-lectures/blob/master/Lecture-7/SVD-I.ipynb) [Slides](https://github.com/dataminingapp/dataminingapp-lectures/blob/master/Lecture-7/SVD.pdf?raw=true)
+
+
+
 ## Homeworks
 The homeworks of this course can be found at [this repository](https://github.com/dataminingapp/spring-2015-homeworks).
 
