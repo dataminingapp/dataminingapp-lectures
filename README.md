@@ -18,6 +18,7 @@
 
 [Lecture 7 - SVD](http://nbviewer.ipython.org/github/dataminingapp/dataminingapp-lectures/blob/master/Lecture-7/SVD-I.ipynb) [Slides](https://github.com/dataminingapp/dataminingapp-lectures/blob/master/Lecture-7/SVD.pdf?raw=true)
 
+[Lecture 8 - SVD in practice](http://nbviewer.ipython.org/github/dataminingapp/dataminingapp-lectures/blob/master/Lecture-8/SVD-II.ipynb) 
 
 
 ## Homeworks
