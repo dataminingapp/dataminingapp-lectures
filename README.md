@@ -23,6 +23,8 @@
 [Lecture 9 - Other clustering algorithms](http://nbviewer.ipython.org/github/dataminingapp/dataminingapp-lectures/blob/master/Lecture-9/Other-Clustering-Algorithms.ipynb) [Hierarchical-Slides] (https://github.com/dataminingapp/dataminingapp-lectures/blob/master/Lecture-9/hierarchical.pdf?raw=true) [Density-slides] (https://github.com/dataminingapp/dataminingapp-lectures/blob/mas\
 ter/Lecture-9/density-based-clustering.pdf?raw=true)
 
+[Lecture 10 - Web scraping slides](https://github.com/dataminingapp/dataminingapp-lectures/blob/master/Lecture-10/webscraping.pdf?raw=true)
+
 
 ## Homeworks
 The homeworks of this course can be found at [this repository](https://github.com/dataminingapp/spring-2015-homeworks).
