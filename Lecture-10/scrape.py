@@ -22,13 +22,13 @@ user_agent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36
 
 parser = argparse.ArgumentParser(description='Scrape tripadvisor')
 parser.add_argument('-datadir', type=str,
-                    help='Direcotry to store row html files',
+                    help='Directory to store raw html files',
                     default="data/")
 parser.add_argument('-state', type=str,
-                    help='State for which the city data is required.',
+                    help='State for which the hotel data is required.',
                     required=True)
 parser.add_argument('-city', type=str,
-                    help='City for which the city data is required.',
+                    help='City for which the hotel data is required.',
                     required=True)
 args = parser.parse_args()
 
@@ -64,7 +64,7 @@ def get_city_page(city, state):
 
     # For example in this case we need to get the following href
     # <li class="hotels twoLines">
-    # <a href="/Hotels-g60745-Boston_Massachusetts-Hotels.html" data-trk="hotels_nav"
+    # <a href="/Hotels-g60745-Boston_Massachusetts-Hotels.html" data-trk="hotels_nav">...</a>
     soup = BeautifulSoup(html)
     li = soup.find("li", {"class": "hotels twoLines"})
     city_url = li.find('a', href=True)
