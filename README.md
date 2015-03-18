@@ -25,6 +25,8 @@ ter/Lecture-9/density-based-clustering.pdf?raw=true)
 
 [Lecture 10 - Web scraping slides](https://github.com/dataminingapp/dataminingapp-lectures/blob/master/Lecture-10/webscraping.pdf?raw=true)
 
+[Lecture 11 - Classification](http://nbviewer.ipython.org/github/dataminingapp/dataminingapp-lectures/blob/master/Lec
+ture-11/Intro-to-Classification.ipynb) [Slides] (https://github.com/dataminingapp/dataminingapp-lectures/blob/master/Lecture-11/evaluation.pdf?raw=true) 
 
 ## Homeworks
 The homeworks of this course can be found at [this repository](https://github.com/dataminingapp/spring-2015-homeworks).
