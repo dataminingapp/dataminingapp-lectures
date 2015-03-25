@@ -9,27 +9,31 @@
 
 [Lecture 3 - Pandas](http://nbviewer.ipython.org/github/dataminingapp/dataminingapp-lectures/blob/master/Lecture-3/Getting-to-know-your-data-with-Pandas.ipynb)
 
-[Lecture 4 - Distance Functions](http://nbviewer.ipython.org/github/dataminingapp/dataminingapp-lectures/blob/master/Lecture-4/Distance-Functions.ipynb) [Slides](https://github.com/dataminingapp/dataminingapp-lectures/blob/master/Lecture-4/distance-functions.pdf?raw=true)
+[Lecture 4 - Distance Functions](http://nbviewer.ipython.org/github/dataminingapp/dataminingapp-lectures/blob/master/Lecture-4/Distance-Functions.ipynb) |
+[Slides](https://github.com/dataminingapp/dataminingapp-lectures/blob/master/Lecture-4/distance-functions.pdf?raw=true)
 
 [Lecture 5 - k-means clustering](https://github.com/dataminingapp/dataminingapp-lectures/blob/master/Lecture-5/kmeanspp.pdf?raw=true)
 
 [Lecture 6 - Clustering](http://nbviewer.ipython.org/github/dataminingapp/dataminingapp-lectures/blob/master/Lecture-6/Clustering.ipynb)
 
+[Lecture 7 - SVD](http://nbviewer.ipython.org/github/dataminingapp/dataminingapp-lectures/blob/master/Lecture-7/SVD-I.ipynb) |
+[Slides](https://github.com/dataminingapp/dataminingapp-lectures/blob/master/Lecture-7/SVD.pdf?raw=true)
 
-[Lecture 7 - SVD](http://nbviewer.ipython.org/github/dataminingapp/dataminingapp-lectures/blob/master/Lecture-7/SVD-I.ipynb) [Slides](https://github.com/dataminingapp/dataminingapp-lectures/blob/master/Lecture-7/SVD.pdf?raw=true)
+[Lecture 8 - SVD in practice](http://nbviewer.ipython.org/github/dataminingapp/dataminingapp-lectures/blob/master/Lecture-8/SVD-II.ipynb)
 
-[Lecture 8 - SVD in practice](http://nbviewer.ipython.org/github/dataminingapp/dataminingapp-lectures/blob/master/Lecture-8/SVD-II.ipynb) 
-
-[Lecture 9 - Other clustering algorithms](http://nbviewer.ipython.org/github/dataminingapp/dataminingapp-lectures/blob/master/Lecture-9/Other-Clustering-Algorithms.ipynb) [Hierarchical-Slides] (https://github.com/dataminingapp/dataminingapp-lectures/blob/master/Lecture-9/hierarchical.pdf?raw=true) [Density-slides] (https://github.com/dataminingapp/dataminingapp-lectures/blob/mas\
-ter/Lecture-9/density-based-clustering.pdf?raw=true)
+[Lecture 9 - Other clustering algorithms](http://nbviewer.ipython.org/github/dataminingapp/dataminingapp-lectures/blob/master/Lecture-9/Other-Clustering-Algorithms.ipynb) |
+[Hierarchical-Slides] (https://github.com/dataminingapp/dataminingapp-lectures/blob/master/Lecture-9/hierarchical.pdf?raw=true) |
+[Density-slides] (https://github.com/dataminingapp/dataminingapp-lectures/blob/master/Lecture-9/density-based-clustering.pdf?raw=true)
 
 [Lecture 10 - Web scraping slides](https://github.com/dataminingapp/dataminingapp-lectures/blob/master/Lecture-10/webscraping.pdf?raw=true)
 
-[Lecture 11 - Classification](http://nbviewer.ipython.org/github/dataminingapp/dataminingapp-lectures/blob/master/Lec
-ture-11/Intro-to-Classification.ipynb) [Slides] (https://github.com/dataminingapp/dataminingapp-lectures/blob/master/Lecture-11/evaluation.pdf?raw=true) 
+[Lecture 11 - Classification](http://nbviewer.ipython.org/github/dataminingapp/dataminingapp-lectures/blob/master/Lecture-11/Intro-to-Classification.ipynb) |
+[Slides] (https://github.com/dataminingapp/dataminingapp-lectures/blob/master/Lecture-11/evaluation.pdf?raw=true)
 
+[Lecture 12 - Linear Regression](http://nbviewer.ipython.org/github/dataminingapp/dataminingapp-lectures/blob/master/Lecture-12/Linear-Regression.ipynb)
 
-[Lecture 11 - Linear Regression](http://nbviewer.ipython.org/github/dataminingapp/dataminingapp-lectures/blob/master/Lecture-12/Linear-Regression.ipynb)
+[Lecture 13 - Logistic Regression](http://nbviewer.ipython.org/github/dataminingapp/dataminingapp-lectures/blob/master/Lecture-13/Logistic-Regression.ipynb)
+
 
 ## Homeworks
 The homeworks of this course can be found at [this repository](https://github.com/dataminingapp/spring-2015-homeworks).
