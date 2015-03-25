@@ -32,6 +32,8 @@
 
 [Lecture 12 - Linear Regression](http://nbviewer.ipython.org/github/dataminingapp/dataminingapp-lectures/blob/master/Lecture-12/Linear-Regression.ipynb)
 
+[Lecture 13 - Logistic Regression](http://nbviewer.ipython.org/github/dataminingapp/dataminingapp-lectures/blob/master/Lecture-13/Logistic-Regression.ipynb)
+
 
 ## Homeworks
 The homeworks of this course can be found at [this repository](https://github.com/dataminingapp/spring-2015-homeworks).
