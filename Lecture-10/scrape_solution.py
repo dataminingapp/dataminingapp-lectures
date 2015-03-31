@@ -20,20 +20,8 @@ base_url = "http://www.tripadvisor.com/"
 user_agent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.76 Safari/537.36"
 
 
-parser = argparse.ArgumentParser(description='Scrape tripadvisor')
-parser.add_argument('-datadir', type=str,
-                    help='Directory to store raw html files',
-                    default="data/")
-parser.add_argument('-state', type=str,
-                    help='State for which the hotel data is required.',
-                    required=True)
-parser.add_argument('-city', type=str,
-                    help='City for which the hotel data is required.',
-                    required=True)
-args = parser.parse_args()
 
-
-def get_city_page(city, state):
+def get_city_page(city, state, datadir):
     """ Returns the URL of the list of the hotels in a city. Corresponds to
     STEP 1 & 2 of the slides.
 
@@ -42,6 +30,8 @@ def get_city_page(city, state):
     city : str
 
     state : str
+
+    datadir : str
 
 
     Returns
@@ -56,7 +46,7 @@ def get_city_page(city, state):
     headers = {'User-Agent': user_agent}
     response = requests.get(url, headers=headers)
     html = response.text.encode('utf-8')
-    with open(os.path.join(args.datadir, city + '-tourism-page.html'), "w") as h:
+    with open(os.path.join(datadir, city + '-tourism-page.html'), "w") as h:
         h.write(html)
 
     # Use BeautifulSoup to extract the url for the list of hotels in
@@ -71,7 +61,7 @@ def get_city_page(city, state):
     return city_url['href']
 
 
-def get_hotellist_page(city_url, page_count):
+def get_hotellist_page(city_url, page_count, city, datadir='data/'):
     """ Returns the hotel list HTML. The URL of the list is the result of
     get_city_page(). Also, saves a copy of the HTML to the disk. Corresponds to
     STEP 3 of the slides.
@@ -82,6 +72,10 @@ def get_hotellist_page(city_url, page_count):
         The relative URL of the hotels in the city we are interested in.
     page_count : int
         The page that we want to fetch. Used for keeping track of our progress.
+    city : str
+        The name of the city that we are interested in.
+    datadir : str, default is 'data/'
+        The directory in which to save the downloaded html.
 
     Returns
     -------
@@ -96,7 +90,7 @@ def get_hotellist_page(city_url, page_count):
     response = requests.get(url, headers=headers)
     html = response.text.encode('utf-8')
     # Save the webpage
-    with open(os.path.join(args.datadir, args.city + '-hotelist-' + str(page_count) + '.html'), "w") as h:
+    with open(os.path.join(datadir, city + '-hotelist-' + str(page_count) + '.html'), "w") as h:
         h.write(html)
     return html
 
@@ -154,17 +148,47 @@ def parse_hotellist_page(html):
             return href['href']
 
 
-if __name__ == "__main__":
+def scrape_hotels(city, state, datadir='data/'):
+    """Runs the main scraper code
+
+    Parameters
+    ----------
+    city : str
+        The name of the city for which to scrape hotels.
+
+    state : str
+        The state in which the city is located.
+
+    datadir : str, default is 'data/'
+        The directory under which to save the downloaded html.
+    """
+
     # Get current directory
     current_dir = os.getcwd()
     # Create datadir if does not exist
-    if not os.path.exists(os.path.join(current_dir, args.datadir)):
-        os.makedirs(os.path.join(current_dir, args.datadir))
+    if not os.path.exists(os.path.join(current_dir, datadir)):
+        os.makedirs(os.path.join(current_dir, datadir))
 
     # Get URL to obtaint the list of hotels in a specific city
-    city_url = get_city_page(args.city, args.state)
-    c=0
+    city_url = get_city_page(city, state, datadir)
+    c = 0
     while(True):
-        c +=1
-        html = get_hotellist_page(city_url,c)
+        c += 1
+        html = get_hotellist_page(city_url, c, city, datadir)
         city_url = parse_hotellist_page(html)
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description='Scrape tripadvisor')
+    parser.add_argument('-datadir', type=str,
+                        help='Directory to store raw html files',
+                        default="data/")
+    parser.add_argument('-state', type=str,
+                        help='State for which the hotel data is required.',
+                        required=True)
+    parser.add_argument('-city', type=str,
+                        help='City for which the hotel data is required.',
+                        required=True)
+
+    args = parser.parse_args()
+    scrape_hotels(args.city, args.state, args.datadir)
