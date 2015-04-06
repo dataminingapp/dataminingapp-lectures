@@ -40,6 +40,8 @@ SVMs-Boosting.ipynb) |
 
 [Lecture 15 - Text Analysis and Topic Modeling](https://github.com/dataminingapp/dataminingapp-lectures/blob/master/Lecture-15)
 
+[Lecture 16 - Introduction to graph analysis](https://github.com/dataminingapp/dataminingapp-lectures/blob/master/Lecture-16)
+
 ## Homeworks
 The homeworks of this course can be found at [this repository](https://github.com/dataminingapp/spring-2015-homeworks).
 
