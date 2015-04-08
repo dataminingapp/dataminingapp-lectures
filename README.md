@@ -42,7 +42,7 @@ SVMs-Boosting.ipynb) |
 
 [Lecture 16 - Introduction to graph analysis](https://github.com/dataminingapp/dataminingapp-lectures/blob/master/Lecture-16)
 
-[Lecture 17 - Introduction to graph analysis](https://github.com/dataminingapp/dataminingapp-lectures/blob/master/Lecture-17/GraphAnalysis-I.ipynb)
+[Lecture 17 - Introduction to graph analysis](http://nbviewer.ipython.org/github/dataminingapp/dataminingapp-lectures/blob/master/Lecture-17/GraphAnalysis-I.ipynb)
 
 ## Homeworks
 The homeworks of this course can be found at [this repository](https://github.com/dataminingapp/spring-2015-homeworks).
