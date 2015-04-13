@@ -44,7 +44,9 @@ SVMs-Boosting.ipynb) |
 
 [Lecture 17 - Introduction to graph analysis](http://nbviewer.ipython.org/github/dataminingapp/dataminingapp-lectures/blob/master/Lecture-17/GraphAnalysis-I.ipynb)
 
-[Lecture 18 - Node Centralities](http://nbviewer.ipython.org/github/dataminingapp/dataminingapp-lectures/blob/master/Lecture-18/GraphAnalysis-II.ipynb)
+[Lecture 18 - Node Centralities](http://nbviewer.ipython.org/github/dataminingapp/dataminingapp-lectures/blob/master/Lecture-18/GraphAnalysis-II.ipynb) |
+[Centrality-slides] (https://github.com/dataminingapp/dataminingapp-lectures/blob/master/Lecture-18/Centrality-Measures.pdf?raw=true)
+
 
 
 ## Homeworks
