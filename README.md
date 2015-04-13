@@ -44,6 +44,9 @@ SVMs-Boosting.ipynb) |
 
 [Lecture 17 - Introduction to graph analysis](http://nbviewer.ipython.org/github/dataminingapp/dataminingapp-lectures/blob/master/Lecture-17/GraphAnalysis-I.ipynb)
 
+[Lecture 18 - Node Centralities](http://nbviewer.ipython.org/github/dataminingapp/dataminingapp-lectures/blob/master/Lecture-18/GraphAnalysis-II.ipynb)
+
+
 ## Homeworks
 The homeworks of this course can be found at [this repository](https://github.com/dataminingapp/spring-2015-homeworks).
 
