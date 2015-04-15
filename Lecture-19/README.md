@@ -1,5 +1,6 @@
 ## Reading material
 http://barabasilab.neu.edu/courses/phys5116/content/class2_hands_on.pdf
+
 http://www.martingrandjean.ch/introduction-to-network-visualization-gephi/
 
 ## Tools
