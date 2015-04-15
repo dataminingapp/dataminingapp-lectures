@@ -48,6 +48,8 @@ SVMs-Boosting.ipynb) |
 [Centrality-slides] (https://github.com/dataminingapp/dataminingapp-lectures/blob/master/Lecture-18/Centrality-Measures.pdf?raw=true)
 
 
+[Lecture 19 - Network Visualization](https://github.com/dataminingapp/dataminingapp-lectures/blob/master/Lecture-19)
+
 
 ## Homeworks
 The homeworks of this course can be found at [this repository](https://github.com/dataminingapp/spring-2015-homeworks).
