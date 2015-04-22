@@ -50,6 +50,10 @@ SVMs-Boosting.ipynb) |
 
 [Lecture 19 - Network Visualization](https://github.com/dataminingapp/dataminingapp-lectures/blob/master/Lecture-19)
 
+[Lecture 20 - Community detection](http://nbviewer.ipython.org/github/dataminingapp/dataminingapp-lectures/blob/master/Lecture-20/GraphAnalysis-III.ipynb) |
+[Cuts-slides] (https://github.com/dataminingapp/dataminingapp-lectures/blob/master/Lecture-20/cuts.pdf?raw=t\
+rue)
+
 
 ## Homeworks
 The homeworks of this course can be found at [this repository](https://github.com/dataminingapp/spring-2015-homeworks).
