@@ -34,8 +34,7 @@
 
 [Lecture 13 - Logistic Regression](http://nbviewer.ipython.org/github/dataminingapp/dataminingapp-lectures/blob/master/Lecture-13/Logistic-Regression.ipynb)
 
-[Lecture 14 - SVM-Boosting](http://nbviewer.ipython.org/github/dataminingapp/dataminingapp-lectures/blob/master/Lecture-14/\
-SVMs-Boosting.ipynb) |
+[Lecture 14 - SVM-Boosting](http://nbviewer.ipython.org/github/dataminingapp/dataminingapp-lectures/blob/master/Lecture-14/SVMs-Boosting.ipynb) |
 [Slides] (https://github.com/dataminingapp/dataminingapp-lectures/blob/master/Lecture-14/svm-boosting.pdf?raw=true)
 
 [Lecture 15 - Text Analysis and Topic Modeling](https://github.com/dataminingapp/dataminingapp-lectures/blob/master/Lecture-15)
